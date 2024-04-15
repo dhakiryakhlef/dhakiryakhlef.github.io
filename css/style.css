@@ -16,3 +16,48 @@
     text-decoration: none;
     font-size: 50px;
 }
+
+.yl{
+    color: lightgoldenrodyellow;
+}
+
+.gr{
+    color: lightgreen;
+}
+
+.bl{
+    color: lightblue;
+}
+
+.rd{
+    color: lightcoral;
+}
+
+/* about me */
+
+.background-abme{
+    height: 100vh;
+    background-color: black;
+}
+
+.header-abme{
+    height: 20%;
+}
+
+.header-abme-div{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+
+}
+
+.header-txt-abme{
+    color: white;
+    margin-top: 4%;
+    font-size: 30px;
+}
+
+.hd-div-abme{
+    height: 100%
+}
