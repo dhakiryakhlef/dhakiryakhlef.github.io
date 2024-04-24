@@ -7,7 +7,7 @@
 }
 
 .link { 
-    margin-top: 50%;
+    margin-top: 30%;
 }
 
 .txt {
@@ -57,8 +57,9 @@
 
 .header-txt-abme {
     color: white;
-    margin-top: 4%;
+    margin-top: 3%;
     font-size: 30px;
+    padding-bottom: 3%;
     text-decoration: none;
 }
 
