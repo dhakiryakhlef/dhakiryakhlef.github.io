@@ -40,7 +40,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    min-height: 960px;
+    min-height: 965px;
 }
 
 .header-abme {
@@ -48,7 +48,7 @@
 }
 
 .header-abme-div {
-    height: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     background-color: lightgreen;
