@@ -51,12 +51,12 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: lightgoldenrodyellow;;
 
 }
 
 .header-txt-abme {
-    color: white;
+    color: black;
     margin-top: 3%;
     font-size: 30px;
     padding-bottom: 3%;
@@ -77,10 +77,66 @@
 }
 
 .big-div-abme:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: gray;
     /* Nieuwe achtergrondkleur bij hover */
 }
 
 .txt-abme {
+    color: lightgoldenrodyellow;
+}
+
+/* projecten */
+
+
+
+.background-proj {
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 965px;
+}
+
+.header-proj {
+    height: 20%;
+}
+
+.header-proj-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+
+}
+
+.header-txt-proj {
+    color: white;
+    margin-top: 3%;
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.hd-div-proj {
+    height: 100%
+}
+
+.big-div-proj {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.big-div-proj:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.txt-proj {
     color: lightgreen;
+}
+
+.img-proj{
+    width: 100%;
 }
