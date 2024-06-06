@@ -3,16 +3,140 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    height: 100vh;
+    min-height: 960px;
 }
 
-.link{
-    margin-top: 50%;
+.link { 
+    margin-top: 30%;
 }
 
-.txt{
+.txt {
     margin-top: 4px;
     color: aliceblue;
     text-decoration: none;
     font-size: 50px;
+}
+
+.yl {
+    color: lightgoldenrodyellow;
+}
+
+.gr {
+    color: lightgreen;
+}
+
+.bl {
+    color: lightblue;
+}
+
+.rd {
+    color: lightcoral;
+}
+
+/* about me */
+
+.background-abme {
+    background-image: url('/img/rainbg2.gif');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 965px;
+}
+
+.header-abme {
+    height: 20%;
+}
+
+.header-abme-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;;
+
+}
+
+.header-txt-abme {
+    color: black;
+    margin-top: 3%;
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.hd-div-abme {
+    height: 100%
+}
+
+.big-div-abme {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    /* Smooth overgang voor hover-effect */
+}
+
+.big-div-abme:hover {
+    background-color: gray;
+    /* Nieuwe achtergrondkleur bij hover */
+}
+
+.txt-abme {
+    color: lightgoldenrodyellow;
+}
+
+/* projecten */
+
+
+
+.background-proj {
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 965px;
+}
+
+.header-proj {
+    height: 20%;
+}
+
+.header-proj-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+
+}
+
+.header-txt-proj {
+    color: white;
+    margin-top: 3%;
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.hd-div-proj {
+    height: 100%
+}
+
+.big-div-proj {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.big-div-proj:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.txt-proj {
+    color: lightgreen;
+}
+
+.img-proj{
+    width: 100%;
 }
