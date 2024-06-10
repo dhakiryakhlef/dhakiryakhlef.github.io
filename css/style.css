@@ -90,11 +90,11 @@
 
 
 .background-proj {
-    background-image: url('');
+    background-image: url('/img/giphy.gif');
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    min-height: 965px;
+    min-height: 100%;
 }
 
 .header-proj {
@@ -118,15 +118,8 @@
 }
 
 .hd-div-proj {
-    height: 100%
-}
-
-.big-div-proj {
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
+    height: 100%;
+    padding-bottom: 1%;
 }
 
 .big-div-proj:hover {
@@ -134,9 +127,22 @@
 }
 
 .txt-proj {
-    color: lightgreen;
+    color: black;
 }
 
 .img-proj{
     width: 100%;
+    border-radius: 30px;
 }
+
+.div1-proj , .div2-proj, .div3-proj , .div4-proj , .div5-proj , .div6-proj{
+    transition: background-color 0.3s ease;
+
+}
+
+.div1-proj:hover , .div2-proj:hover, .div3-proj:hover , .div4-proj:hover , .div5-proj:hover , .div6-proj:hover {
+    background-color: lightgreen;
+    /* Nieuwe achtergrondkleur bij hover */
+}
+
+/* contact page */
