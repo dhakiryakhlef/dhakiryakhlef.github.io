@@ -179,3 +179,39 @@
     height: 100%;
     padding-bottom: 1%;
 }
+
+/* website page */
+
+
+.background-web {
+    background-image: url('/img/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 965px;
+}
+
+.header-web {
+    height: 20%;
+}
+
+.header-web-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    margin-bottom: 40px;
+}
+
+.header-txt-web {
+    color: black;
+    margin-top: 3%;
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.hd-div-web {
+    height: 100%;
+    padding-bottom: 1%;
+}
