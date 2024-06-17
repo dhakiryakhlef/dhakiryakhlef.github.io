@@ -148,7 +148,7 @@
 /* contact page */
 
 .background-con {
-    background-image: url('/img/giphy.gif');
+    background-image: url('/img/rainbg4.gif');
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -180,11 +180,21 @@
     padding-bottom: 1%;
 }
 
+.img-con{
+    height: 89%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.img-con-div{
+    margin-top: 2%;
+
+}
 /* website page */
 
 
 .background-web {
-    background-image: url('/img/giphy.gif');
+    background-image: url('/img/rainbg3.gif');
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -199,8 +209,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: lightblue;
-    margin-bottom: 40px;
+    background-color: lightcoral;
 }
 
 .header-txt-web {
@@ -214,4 +223,21 @@
 .hd-div-web {
     height: 100%;
     padding-bottom: 1%;
+}
+
+.div-web-txt{
+    margin-top: 10%;
+}
+
+.div-web {
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    /* Smooth overgang voor hover-effect */
+}
+
+.div-web:hover {
+    background-color: aliceblue;
 }
